@@ -9,8 +9,8 @@ This version of the pipeline is also available [here](https://nist.mni.mcgill.ca
 python ./WMHSP.py -c RF -i training_inputs.csv -d N -m template_mask.mnc -f 10 -o outputs/ -t Temp_Files/ -e PT -n segmentation_inputs.csv -p Trained_Classifiers/
 
 ## Input csv format:
-Subjects,T1s,FLAIRs,Masks,XFMs 
-S1,t1.mnc,flair.mnc,mask.mnc,xfm.xfm
+Subjects, T1s, FLAIRs, Masks, XFMs 
+S1, t1.mnc, flair.mnc, mask.mnc, xfm.xfm
 
 ## References: 
 
