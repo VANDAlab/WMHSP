@@ -11,7 +11,11 @@ python ./WMHSP.py -c RF -i training_inputs.csv -d N -m template_mask.mnc -f 10 -
 ## Input csv format:
 Subjects, T1s, FLAIRs, Masks, XFMs 
 
-S1, t1.mnc, flair.mnc, mask.mnc, xfm.xfm
+S1, s1_t1.mnc, s1_flair.mnc, s1_mask.mnc, s1_xfm.xfm
+
+S2, s2_t1.mnc, s2_flair.mnc, s2_mask.mnc, s2_xfm.xfm
+
+...
 
 ## References: 
 
